@@ -1,1 +1,1 @@
-# Nasa_Wildfire_data
+# Nasa Wildfire Data

@@ -1,0 +1,60 @@
+.container {
+    max-width: 30%;
+    height: 20%;
+    margin: 50px;
+    outline: solid 1px black;
+    background: orange;
+}
+
+#wildfireCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 600px) {
+    .item {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+@media(min-width: 600px) {
+    .item {
+        width: 30%;
+        padding: 20px;
+        height: auto;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 14px 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background: #222268;
+    padding: 1em;
+    color: #fff;
+    margin-bottom: 2em;
+    font-weight: 200;
+}
